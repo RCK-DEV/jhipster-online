@@ -126,15 +126,15 @@ jhipster:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
-#application:
-#    tmp-folder: /tmp
-#    jhipster-cmd:
-#        cmd: XXX
-#        timeout: 120
-#    github:
-#        host: https://github.com
-#        client-id: XXX
-#        client-secret: XXX
+application:
+  #    tmp-folder: /tmp
+  #    jhipster-cmd:
+  #        cmd: XXX
+  #        timeout: 120
+  github:
+    host: https://github.com
+    client-id: 549e835ee857578e1e8e
+    client-secret: 9e61680d39c5f2fab35a1ce621ecc5995c83575f
 #    gitlab:
 #        host: https://gitlab.com
 #        client-id: XXX
