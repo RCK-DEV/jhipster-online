@@ -21,7 +21,7 @@ node {
         sh "./mvnw -ntp com.github.eirslett:frontend-maven-plugin:install-node-and-npm -DnodeVersion=v14.16.0 -DnpmVersion=7.8.0"
     }
 
-    stage('npm install') {
+    stage('npm install --legacy-peer-deps') {
         sh "./mvnw -ntp com.github.eirslett:frontend-maven-plugin:npm"
     }
     stage('backend tests') {
